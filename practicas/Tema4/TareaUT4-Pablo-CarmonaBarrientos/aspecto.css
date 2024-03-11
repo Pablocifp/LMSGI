@@ -1,0 +1,111 @@
+/* Seccion del encabezado para todo el html */
+body {
+    background-color: #FDF0D5;
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+}
+li {
+    list-style-position: inside;
+    width: 95%;
+}
+h1 {
+    background-color: brown;
+    border-radius: 10px;
+    padding: 10px;
+}
+#azul {
+    background-color: cornflowerblue;
+    border: solid black 2px;
+    color: black;
+}
+#naranja {
+    background-color: orangered;
+    border: solid black 2px;
+    color: black;
+}
+#verde {
+    background-color: green;
+    border: solid black 2px;
+    color: black;
+}
+#amarillo {
+    background-color: yellow;
+    border: solid black 2px;
+    color: black;
+}
+footer {
+    background-image: url(Patata.png);
+    background-repeat: repeat;
+    background-size: 25%;
+    width: 100%;
+}
+/* Cambios de aspecto realizados en Catalogo */
+.guia {
+    float: left;
+    background-color: white;
+    width: 150px;
+    margin: 20px 0px;
+    padding: 10px;
+    border: solid black;
+}
+section.catalogo {
+    float: right;
+    background-color: orange;
+    border: solid black;
+    width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+    height: 650px;
+}
+footer {
+    float: right;
+}
+h4 {
+    text-decoration: underline overline;
+}
+/* Cambios realizados en Inicio */
+.aviso {
+    background-color: orange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+}
+.normas {
+    background-color: burlywood;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Cambios realizados en Quienes_Somos */
+#autores {
+    background-color: white;
+    border: gold dotted 10px;
+    border-top: gold ridge;
+    border-bottom: gold ridge;
+}
+#somos {
+    text-decoration: underline overline;
+}
+/* Cambios realizados en Contactar */
+.margen {
+    padding: 10px;
+}
+caption {
+    text-decoration: underline;
+}
+.comentario {
+    background: orange;
+    border-radius: 20px;
+    padding: 10px;
+}
+#reseteo {
+    margin: 10px;
+    padding: 5px;
+    background-color: red;
+}
+#envio {
+    margin: 10px;
+    padding: 5px;
+    background-color: blue;
+}

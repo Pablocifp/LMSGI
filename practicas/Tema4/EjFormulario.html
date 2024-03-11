@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="formato2.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet"> 
+        <title>Formulario</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div id="cabezera"><h2>Formulario de registro</h2></div>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <form action="#" method="post">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Registrate</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <b>Nombre completo</b>
+                                    <input type="text" name="nombre" id="tamaño" placeholder="Introduce tu nombre" required>
+                                </td>
+                                <td>
+                                    <b>Username</b>
+                                    <input type="text" name="usuario" id="tamaño" placeholder="Escribe un username" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>Correo electronico</b>
+                                    <input type="text" name="correo" id="tamaño" placeholder="Introduce un correo" required>
+                                <td>
+                                    <b>Telefono</b>
+                                    <input type="text" name="telefono" id="tamaño" placeholder="Introduce tu numero" required>
+                                </td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>Contraseña</b>
+                                    <input type="text" name="contraseña" id="tamaño" required>
+                                </td>
+                                <td>
+                                    <b>Repite la contraseña</b>
+                                    <input type="text" name="repetir" id="tamaño" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>Fecha de nacimiento</b>
+                                    <input type="text" name="fecha" id="tamaño" placeholder="26/01/2024">
+                                </td>
+                                <td colspan="2">
+                                    <b>Genero</b>
+                                    <br>
+                                    <input type="radio" name="genero" id="casilla" value="Mujer">Mujer
+                                    <input type="radio" name="genero" id="casilla" value="Hombre">Hombre
+                                    <input type="radio" name="genero" id="casilla" value="Helicoptero">Otro
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>
+                                    <input type="reset" value="Borrar" id="borrado">
+                                </td>
+                                <td>
+                                    <input type="submit" value="Enviar" id="envio">
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </form>
+            </article>
+        </section>
+    </body>
+</html>

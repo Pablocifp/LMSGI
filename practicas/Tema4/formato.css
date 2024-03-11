@@ -1,0 +1,65 @@
+* {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    margin: 25px;
+}
+body {
+    background-color: blanchedalmond;
+}
+caption {
+    text-align: right;
+    margin: 0px;
+    font-size: larger;
+}
+table {
+    margin: 0 auto;
+    border: none;
+    border-collapse: collapse;
+    background-color: white;
+}
+table#pequeño {
+    border-radius: 10px;
+}
+#pequeño th { 
+    width: 50%;
+    max-width: 125px;
+    height: 25px;
+    color: white;
+    background-color: orange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#pequeño.td {
+    background-color: white;
+}
+#grande {
+    width: 100%;
+    max-width: 450px;
+    height: 350px;
+    table-layout: fixed;
+}
+#letras {
+    color: white;
+    background-color: orange;
+}
+#dias {
+    width: 65%;
+}
+#vac {
+    color: white;
+    background-color: blue;
+}
+#libre {
+    color: white;
+    background-color: green;
+}
+#festivo {
+    color: white;
+    background-color: yellowgreen;
+}
+#anterior {
+    color: grey;
+}
+#siguiente {
+    background-color: grey;
+}

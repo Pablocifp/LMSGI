@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Formulario">
+        <meta name="keywords" content="Comentarios y Envio">
+        <link rel="stylesheet" href="aspecto.css">
+        <title>Contactar</title>
+    </head>
+    <body class="margen">
+        <header>
+            <h1>Diario de bromas</h1>
+            <br>
+            <nav>
+                <p>
+                    <u>Para moverse entra las distintas secciones haz clic en: </u>
+                    <a href="Catalogo.html" id="verde">Consejos</a>
+                    <a href="Inicio.html" id="naranja">Inicio</a>
+                    <a href="Quienes_Somos.html" id="azul">Creadores</a>
+                </p>
+            </nav>
+        </header>
+        <hr>
+        <section class="comentario">
+            <article>
+                <form action="#" method="post">
+                    <p>
+                        <b>Si se le ocurre alguna idea que nos falto indiquelo aqui:</b>
+                        <br>
+                        <textarea name="comentario" row="5" cols="50"></textarea>
+                        <br>
+                        <table class="margen">
+                            <caption><b>Indiquenos que mas le gusto de esta web:</b></caption>
+                            <thead>
+                                <tr>
+                                    <td><input name="seleccion" type="checkbox">El inicio estaba bien</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input name="seleccion" type="checkbox">Los consejos estan bien</td>
+                                </tr>
+                                <tr>
+                                    <td><input name="seleccion" type="checkbox">La seccion de los creadores esta bien</td>
+                                </tr>
+                                <tr>
+                                    <td><input name="seleccion" type="checkbox">La seccion de comentar esta bien</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td><input name="seleccion" type="checkbox">Si marco esta casilla indique arriba que podria mejorarse</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        <b>Puntuacion de como ve nuestra Web actual:</b> 
+                            <select name="Puntuacion">
+                                <option name="nulo" selected="nulo">Puntuacion</option>
+                                <option value="puntuacion">1</option>
+                                <option value="puntuacion">2</option>
+                                <option value="puntuacion">3</option>
+                                <option value="puntuacion">4</option>
+                                <option value="puntuacion">5</option>
+                                <option value="puntuacion">6</option>
+                                <option value="puntuacion">7</option>
+                                <option value="puntuacion">8</option>
+                                <option value="puntuacion">9</option>
+                                <option value="puntuacion">10</option>
+                            </select>
+                        <br>
+                        <b>¿Primer Chiste?:</b>
+                        <input name="chiste" type="radio">S
+                        <input name="chiste" type="radio">N
+                        <br>
+                        <input type="submit" name="enviar" value="Enviar" id="envio">
+                        <input type="reset" name="resetear" value="Resetear" id="reseteo">
+                    </p>
+                </form>
+            </article>
+        </section>
+        <footer>
+            <hr>
+            <h3>¡Gracias por su tiempo!</h3>
+        </footer>
+    </body>
+</html>

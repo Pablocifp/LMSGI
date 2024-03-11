@@ -1,0 +1,63 @@
+* {
+    border-collapse: collapse;
+    white-space-collapse: collapse;
+    width: 100%;
+}
+#cabezera {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    height: 125px;
+    padding: 50px 0px;
+    margin: o auto;
+    font-size: 25px;
+}
+table {
+    background-color: wheat;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    table-layout: fixed;
+    margin-top: 25px;
+}
+thead {
+    font-size: 25px;
+    border-bottom: darkcyan solid;
+    color: darkcyan;
+    height: 100px;
+}
+div {
+    background-color: darkcyan;
+}
+#tamaño {
+    width: 100%;
+    max-width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+#casilla {
+    height: 10px;
+    width: 100%;
+    max-width: 10px;
+    margin-top: 25px;
+}
+td {
+    padding:10px;
+}
+b {
+    font-size: 15px;
+}
+#borrado {
+    background-color: red;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+}
+#envio {
+    background-color: darkcyan;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+}
